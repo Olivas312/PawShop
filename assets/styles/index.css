@@ -1,0 +1,90 @@
+:root {
+--azul : #6EB3D0;
+--verde: #4dd911;
+--rosa : #F7B6D2;
+--laranja:#F4A623;
+--preto: #000000;
+--branco: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+header,footer{
+    background-color: var(--azul);
+}
+.card button{
+    border-radius: 0%;
+    background-color: var(--rosa);
+    border: none;
+    width: 10rem;
+    color: var(--preto);
+}
+.card button:hover{
+    background-color: #cd0a5f;
+}
+#textoAdocao{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin: 2rem;
+    color: var(--rosa);
+}
+#adocaoConteudo{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+#adocaoConteudo > #formularioDeAdocao,#bannerAdocao{
+    width: 50%;
+    flex-flow: row wrap !important;
+}
+#formulrioDeAdocao > form {
+    display: flex;
+    flex-flow: column wrap;
+}
+#itell , #iemail{
+    width: 100%;
+}
+#inotificacao{
+    width: fit-content;
+}
+[data-notificacao="chkbx"]{
+    width: fit-content;
+}
+.usuarioInput{
+    width: 100%;
+    padding-top: 1rem;
+    align-items: center;
+    font-weight: 400;
+}
+#enviarButton{
+    background-color: var(--azul);
+    border-radius: .5rem;
+    border: none;
+    margin-top: 2.5rem;
+    padding: 5px 50px 5px 50px;
+}
+    
+.usuarioCadastro{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.boxTitle{
+    text-align: center;
+    color: var(--azul);
+}
+.boxInput{
+    width: 70%;
+    margin: 0 auto;
+}
+#troca-troca{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
